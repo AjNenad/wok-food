@@ -407,6 +407,10 @@ p {
     font-size: 3rem;
   }
 
+  .container--selfPromotion {
+    max-width: 90%;
+  }
+
   .selfPromotion--img1,
   .selfPromotion--img2,
   .selfPromotion--img3 {
@@ -464,6 +468,10 @@ p {
     gap: 2rem;
   }
 
+  .container--selfPromotion {
+    max-width: 90%;
+  }
+
   .selfPromotion--img1,
   .selfPromotion--img2,
   .selfPromotion--img3 {
@@ -471,7 +479,7 @@ p {
   }
 
   .selfPromotion--text {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .footer {
