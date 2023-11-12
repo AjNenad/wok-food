@@ -378,7 +378,7 @@ p {
 }
 
 /* For tablets */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
   .header {
     font-size: 1.2rem;
     padding: 0;
@@ -464,8 +464,9 @@ p {
   }
 
   .mostPopular-menu {
+    max-width: 95%;
     font-size: 1.5rem;
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .container--selfPromotion {
