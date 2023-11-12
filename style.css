@@ -383,6 +383,39 @@ p {
     font-size: 1.2rem;
     padding: 0;
   }
+
+  .navigation {
+    max-width: 90%;
+  }
+
+  .landing-menu {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .landing-menu a {
+    padding: 1.8rem;
+  }
+
+  .logo {
+    height: 3.2rem;
+  }
+
+  .cart:link,
+  .cart:visited {
+    font-size: 3rem;
+  }
+
+  .selfPromotion--img1,
+  .selfPromotion--img2,
+  .selfPromotion--img3 {
+    height: 12vmax;
+  }
+
+  .selfPromotion--text {
+    font-size: 1.5rem;
+  }
 }
 
 /* For phones */
