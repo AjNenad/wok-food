@@ -362,6 +362,22 @@ p {
   gap: 2rem;
 }
 
+/* For smaller laptops */
+@media only screen and (max-width: 1180px) {
+  .landing-menu {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .landing-h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* For tablets */
 @media only screen and (max-width: 800px) {
   .header {
     font-size: 1.2rem;
@@ -369,18 +385,69 @@ p {
   }
 }
 
-@media only screen and (max-width: 1180px) {
+/* For phones */
+@media only screen and (max-width: 600px) {
+  .container1 {
+    height: 30vmax;
+  }
+
+  .navigation {
+    height: 6vmax;
+    max-width: 90%;
+  }
+
   .landing-menu {
-    font-size: 2rem;
+    font-size: 0.5rem;
     margin: 0;
     padding: 0;
   }
-}
 
-@media only screen and (max-width: 1180px) {
+  .landing-menu a {
+    padding: 1.5rem;
+  }
+
+  .logo {
+    height: 3rem;
+  }
+
+  .cart:link,
+  .cart:visited {
+    font-size: 2.5rem;
+  }
+
   .landing-h1 {
-    font-size: 3rem;
-    margin: 0;
-    padding: 0;
+    font-size: 2.2rem;
+    height: 10vmax;
+  }
+
+  .mostPopular--heading h2 {
+    font-size: 2.8rem;
+    padding-top: 2.8rem;
+    padding-bottom: 1.6rem;
+  }
+
+  .mostPopular-menu {
+    font-size: 1.5rem;
+    gap: 2rem;
+  }
+
+  .selfPromotion--img1,
+  .selfPromotion--img2,
+  .selfPromotion--img3 {
+    height: 8vmax;
+  }
+
+  .selfPromotion--text {
+    font-size: 1rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacts--column {
+    padding-top: 10rem;
   }
 }
