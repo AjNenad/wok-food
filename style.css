@@ -426,7 +426,6 @@ p {
 @media only screen and (max-width: 600px) {
   .header p {
     font-size: 1rem;
-    color: white;
   }
 
   .container1 {
